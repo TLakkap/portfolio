@@ -1,0 +1,100 @@
+/* Perusasetukset */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4fc; /* Vaalea sininen taustaväri */
+    color: #2c3e50; /* Tumma, mutta moderni tekstiväri */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Otsikkoalue */
+header {
+    background-color: #4a90e2; /* Kirkas sininen tausta */
+    color: #000000; /* Musta teksti "Welcome to my portfolio" */
+    padding: 20px 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Kevyt varjo */
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Pääsisältöalue */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff; /* Valkoinen tausta */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Varjo erottaa sisällön */
+    border-radius: 8px;
+}
+
+/* Otsikot */
+h1 {
+    color: #000000; /* Musta teksti vain pääotsikossa */
+    text-align: center;
+}
+
+h2 {
+    color: #4a90e2; /* Tekstin väri sama kuin "Welcome to my portfolio" tausta */
+    border-bottom: 3px solid #000000; /* Musta viiva korostuksena */
+    padding-bottom: 5px;
+}
+
+/* Lista */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e3f2fd; /* Vaalea sininen taustaväri listalle */
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 5px solid #3478f6; /* Sininen korostusreuna */
+    border-radius: 4px;
+    color: #34495e; /* Tumma, helposti luettava teksti */
+}
+
+/* Alatunniste */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #2c3e50; /* Tumma, mutta tyylikäs väri */
+    color: #ecf0f1; /* Raikas, vaalea teksti */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Linkit */
+a {
+    color: #9b27b0; /* Violetti linkkiväri */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #3478f6; /* Sininen hover-korostus */
+}
+
+.project {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9; /* Vaaleanharmaa tausta */
+    border: 1px solid #ddd; /* Hento reunus */
+    border-radius: 8px; /* Pyöristetyt kulmat */
+}
+
+.project h3 {
+    color: #4a90e2; /* Sininen otsikko väri */
+}
+
+.project p {
+    margin-bottom: 10px;
+}
