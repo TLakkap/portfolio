@@ -1,20 +1,31 @@
-/* Perusasetukset */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0f4fc; /* Vaalea sininen taustaväri */
-    color: #2c3e50; /* Tumma, mutta moderni tekstiväri */
+    background-color: #f0f4fc;
+    color: #2c3e50;
     margin: 0;
     padding: 0;
     line-height: 1.6;
 }
 
-/* Otsikkoalue */
 header {
-    background-color: #4a90e2; /* Kirkas sininen tausta */
-    color: #000000; /* Musta teksti "Welcome to my portfolio" */
+    background-color: #4a90e2;
+    color: #000000;
     padding: 20px 10px;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Kevyt varjo */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
 }
 
 header h1 {
@@ -23,76 +34,71 @@ header h1 {
     margin: 0;
 }
 
-/* Pääsisältöalue */
 main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background: #ffffff; /* Valkoinen tausta */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Varjo erottaa sisällön */
+    background: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 
-/* Otsikot */
 h1 {
-    color: #000000; /* Musta teksti vain pääotsikossa */
+    color: #000000;
     text-align: center;
 }
 
 h2 {
-    color: #4a90e2; /* Tekstin väri sama kuin "Welcome to my portfolio" tausta */
-    border-bottom: 3px solid #000000; /* Musta viiva korostuksena */
+    color: #4a90e2;
+    border-bottom: 3px solid #000000;
     padding-bottom: 5px;
 }
 
-/* Lista */
 ul {
     list-style: none;
     padding: 0;
 }
 
 ul li {
-    background: #e3f2fd; /* Vaalea sininen taustaväri listalle */
+    background: #e3f2fd;
     margin: 5px 0;
     padding: 10px;
-    border-left: 5px solid #3478f6; /* Sininen korostusreuna */
+    border-left: 5px solid #3478f6;
     border-radius: 4px;
-    color: #34495e; /* Tumma, helposti luettava teksti */
+    color: #34495e;
 }
 
-/* Alatunniste */
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #2c3e50; /* Tumma, mutta tyylikäs väri */
-    color: #ecf0f1; /* Raikas, vaalea teksti */
+    background-color: #2c3e50;
+    color: #ecf0f1;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 
-/* Linkit */
 a {
-    color: #9b27b0; /* Violetti linkkiväri */
+    color: #9b27b0;
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover {
     text-decoration: underline;
-    color: #3478f6; /* Sininen hover-korostus */
+    color: #3478f6;
 }
 
 .project {
     margin-bottom: 20px;
     padding: 15px;
-    background-color: #f9f9f9; /* Vaaleanharmaa tausta */
-    border: 1px solid #ddd; /* Hento reunus */
-    border-radius: 8px; /* Pyöristetyt kulmat */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
 }
 
 .project h3 {
-    color: #4a90e2; /* Sininen otsikko väri */
+    color: #4a90e2;
 }
 
 .project p {
